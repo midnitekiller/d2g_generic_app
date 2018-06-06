@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.direct2guests.d2g_tv.Activities.OffersDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_lg"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/HomeBtnOffer"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/home_logo" />
+
+        <Button
+            android:id="@+id/BackBtnOffer"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeBtnOffer"
+            android:layout_toRightOf="@+id/HomeBtnOffer"
+            android:background="@drawable/back_logo" />
+
+        <TextView
+            android:id="@+id/OfferTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeBtnOffer"
+            android:layout_toRightOf="@+id/BackBtnOffer"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Offer Type"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/OfferTitle"
+            android:layout_marginEnd="49dp"
+            android:id="@+id/notif"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/new_message"
+                android:layout_width="26dp"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/chat_message"
+                android:background="@drawable/badge_circle"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAlignment="center"
+                android:translationZ="30dp" />
+
+            <Button
+                android:id="@+id/chat_message"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/message_icon" />
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/HomeBtnOffer"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <LinearLayout
+                android:id="@+id/outerCardHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

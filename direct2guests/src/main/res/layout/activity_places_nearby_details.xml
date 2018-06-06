@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.direct2guests.d2g_tv.Activities.PlacesNearbyDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/placesRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_lg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/HomeButtonDetails"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="45dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:focusedByDefault="true"
+            android:background="@drawable/home_logo" />
+
+        <Button
+            android:id="@+id/BackButtonDetails"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeButtonDetails"
+            android:layout_toRightOf="@+id/HomeButtonDetails"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/back_logo" />
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/PlacesDetailTitle"
+            android:layout_marginEnd="49dp"
+            android:visibility="gone"
+            android:id="@+id/notif">
+
+            <TextView
+                android:id="@+id/new_message"
+                android:layout_width="26dp"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/chat_message"
+                android:background="@drawable/badge_circle"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAlignment="center"
+                android:translationZ="30dp" />
+
+            <Button
+                android:id="@+id/chat_message"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/message_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/PlacesDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeButtonDetails"
+            android:layout_centerVertical="false"
+            android:layout_toRightOf="@+id/BackButtonDetails"
+            android:gravity="center_vertical"
+            android:text="Places Details"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:id="@+id/DetailsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/HomeButtonDetails">
+
+            <HorizontalScrollView
+                android:id="@+id/DetailsScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_margin="40dp">
+
+                <LinearLayout
+                    android:id="@+id/DetailsCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

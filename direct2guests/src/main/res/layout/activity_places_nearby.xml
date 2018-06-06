@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/placesConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_lg"
+    tools:context="com.direct2guests.d2g_tv.Activities.PlacesNearbyActivity">
+
+    <RelativeLayout
+        android:id="@+id/placesRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/placeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/BackButton"
+            android:layout_centerInParent="false"
+            android:layout_toEndOf="@+id/BackButton"
+            android:gravity="center_vertical"
+            android:text="Places Nearby"
+            android:textAlignment="gravity"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/HomeButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="35dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/home_logo"
+            android:backgroundTintMode="multiply"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/BackButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeButton"
+            android:layout_toRightOf="@+id/HomeButton"
+            android:background="@drawable/back_logo"
+            android:backgroundTintMode="multiply"
+            android:focusable="true" />
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/placeTextView"
+            android:layout_marginEnd="37dp"
+            android:id="@+id/notif"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/new_message"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/chat_message"
+                android:background="@drawable/badge_circle"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAlignment="center"
+                android:translationZ="30dp" />
+
+            <Button
+                android:id="@+id/chat_message"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/message_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/HomeButton"
+            android:id="@+id/relativeLayout3">
+
+            <ImageView
+                android:id="@+id/HotelLogoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:adjustViewBounds="true" />
+
+            <HorizontalScrollView
+                android:id="@+id/PlacesScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@+id/HotelLogoImageView"
+                android:animationCache="true"
+                android:fadingEdge="vertical"
+                android:scrollbarStyle="insideOverlay">
+
+                <LinearLayout
+                    android:id="@+id/PlacesCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <FrameLayout
+                        android:id="@+id/ActivitiesCard"
+                        android:layout_width="240dp"
+                        android:layout_height="240dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/activities_small"
+                        android:backgroundTint="#fff"
+                        android:backgroundTintMode="multiply"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="ActivitiesDetails">
+
+                        <TextView
+                            android:id="@+id/ActivitiesTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#c1000000"
+                            android:padding="17dp"
+                            android:text="Activities"
+                            android:textAlignment="center"
+                            android:textColor="#fff"
+                            android:textSize="28sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/PubsCard"
+                        android:layout_width="240dp"
+                        android:layout_height="240dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/pubs_small"
+                        android:backgroundTint="#fff"
+                        android:backgroundTintMode="multiply"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="PubsDetails">
+
+                        <TextView
+                            android:id="@+id/PubsTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#c1000000"
+                            android:padding="17dp"
+                            android:text="Nightlife"
+                            android:textAlignment="center"
+                            android:textColor="#fff"
+                            android:textSize="28sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/RestaurantsCard"
+                        android:layout_width="240dp"
+                        android:layout_height="240dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/restaurants_small"
+                        android:backgroundTint="#fff"
+                        android:backgroundTintMode="multiply"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="RestaurantsDetails">
+
+                        <TextView
+                            android:id="@+id/RestaurantsTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#c1000000"
+                            android:padding="17dp"
+                            android:text="Restaurants"
+                            android:textAlignment="center"
+                            android:textColor="#fff"
+                            android:textSize="28sp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

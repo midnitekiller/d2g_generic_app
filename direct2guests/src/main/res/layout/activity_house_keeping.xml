@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/showhouse"
+        android:layout_width="510dp"
+        android:layout_height="550dp"
+        android:background="@drawable/housekeepingmodal_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/HousekeepingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#bb000000"
+            android:padding="20dp"
+            android:text="HOUSEKEEPING"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/HousekeepingDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/HousekeepingTitle"
+            android:layout_marginTop="32dp"
+            android:text="Thu June 29 2017"
+            android:textAlignment="center"
+            android:textColor="#393939"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HousekeepingStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/HousekeepingDate"
+            android:layout_marginTop="11dp"
+            android:text="Status: "
+            android:textAlignment="center"
+            android:textColor="#393939"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/CancelHouseKeeping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/HousekeepingStatus"
+            android:layout_marginTop="14dp"
+            android:text="Cancel Housekeeping"
+            android:textAlignment="center"
+            android:textColor="#393939"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/TodayHKBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/CancelHouseKeeping"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/confirm_button"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:focusedByDefault="true"
+            android:text="TODAY"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/WholeHKBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/TodayHKBtn"
+            android:layout_below="@+id/TodayHKBtn"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/confirm_button"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:text="WHOLE STAY"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/RequestHouseKeeping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/WholeHKBtn"
+            android:layout_marginTop="10dp"
+            android:text="Request Housekeeping"
+            android:textAlignment="center"
+            android:textColor="#393939"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/RequestHKBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/WholeHKBtn"
+            android:layout_below="@+id/RequestHouseKeeping"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/confirm_button"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:text="REQUEST HOUSEKEEPING"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

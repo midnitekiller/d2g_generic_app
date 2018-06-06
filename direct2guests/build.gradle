@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.direct2guests.d2g_tv"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.10"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    // add: Prevent errors in "Generate Signed APK"
+    lintOptions {
+        checkReleaseBuilds false
+        disable 'MissingTranslation'
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    //additional dependencies
+
+
+    compile 'net.butterflytv.utils:rtmp-client:3.0.0RC'
+    compile 'com.android.support:leanback-v17:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:26.+'
+    /**chyll remove temp to compile*/
+    compile 'com.github.bumptech.glide:glide:3.4.+'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.android.exoplayer:exoplayer:r2.4.4'
+    compile 'com.github.lguipeng:BubbleView:1.0.1'
+    compile 'com.google.android.gms:play-services-analytics:10.2.4'
+}

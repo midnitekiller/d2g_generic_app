@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/restaurantCard"
+    android:layout_width="280dp"
+    android:layout_height="280dp"
+    android:layout_centerVertical="true"
+    android:backgroundTint="#fff"
+    android:backgroundTintMode="multiply"
+    android:clickable="true"
+    android:drawingCacheQuality="auto"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/restoImage"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/menus"/>
+
+    <TextView
+        android:id="@+id/restoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#c1000000"
+        android:paddingBottom="17dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="17dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="23sp" />
+</FrameLayout>

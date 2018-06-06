@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_lg"
+    tools:context="com.direct2guests.d2g_tv.Activities.FoodDrinksActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/HomeButtonFD"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/home_logo"
+            android:backgroundTintMode="src_atop"
+            android:focusableInTouchMode="true" />
+
+
+        <Button
+            android:id="@+id/backButtonFD"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeButtonFD"
+            android:layout_toRightOf="@+id/HomeButtonFD"
+            android:background="@drawable/back_logo"
+            android:backgroundTintMode="src_atop" />
+
+        <TextView
+            android:id="@+id/FDTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:text="Food and Drinks"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/backButtonFD"
+            android:layout_toEndOf="@+id/backButtonFD" />
+
+        <RelativeLayout
+            android:id="@+id/FDScrollLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/HomeButtonFD">
+
+            <ImageView
+                android:id="@+id/HotelLogoFD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:adjustViewBounds="true"
+                android:drawingCacheQuality="auto" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/HotelLogoFD">
+
+                <LinearLayout
+                    android:id="@+id/FDLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_margin="25dp">
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/FDTitle"
+            android:layout_marginEnd="58dp"
+            android:visibility="gone"
+            android:id="@+id/notif">
+
+            <TextView
+                android:id="@+id/new_message"
+                android:layout_width="26dp"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/chat_message"
+                android:background="@drawable/badge_circle"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAlignment="center"
+                android:translationZ="30dp" />
+
+            <Button
+                android:id="@+id/chat_message"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/message_icon"
+                android:backgroundTint="#fcfdfd"
+                android:backgroundTintMode="multiply"
+                android:focusableInTouchMode="true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

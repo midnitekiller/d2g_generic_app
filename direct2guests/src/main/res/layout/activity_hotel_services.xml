@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/launcher_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_lg"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ImageView
+            android:id="@+id/userLogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="46dp"
+            android:src="@drawable/user_icon"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/welcomeGuest_hs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/userLogo"
+            android:text="@string/launcherWelcome"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/dateView_hs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="19dp"
+            android:text="@string/launcherDate"
+            android:textAlignment="viewEnd"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:layout_alignBaseline="@+id/timeDaily"
+            android:layout_alignBottom="@+id/timeDaily"
+            android:layout_toStartOf="@+id/timeDaily" />
+
+        <TextClock
+            android:id="@+id/timeDaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/welcomeGuest_hs"
+            android:layout_alignBottom="@+id/welcomeGuest_hs"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="54dp"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:id="@+id/widgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/weather"
+            android:layout_alignRight="@+id/weather"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/weather"
+            android:gravity="right">
+
+            <RelativeLayout
+                android:id="@+id/notif"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/new_message"
+                    android:layout_width="26dp"
+                    android:layout_height="25dp"
+                    android:layout_alignRight="@+id/chat_message"
+                    android:background="@drawable/badge_circle"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textAlignment="center"
+                    android:translationZ="30dp" />
+
+                <Button
+                    android:id="@+id/chat_message"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/message_icon" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/currency"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/notif"
+                android:background="@drawable/circle_app_icon"
+                android:onClick="openCurrency"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/weather"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/timeDaily"
+            android:layout_below="@+id/dateView_hs"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/weatherIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/weatherDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/weatherTemp"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/weatherTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="7dp"
+                android:layout_toRightOf="@+id/weatherIcon"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/selections_hs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/widgets"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/hotelLogo_hs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:adjustViewBounds="true" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/hotelLogo_hs"
+                android:animationCache="true"
+                android:fadingEdge="vertical"
+                android:overScrollMode="never"
+                android:scrollbarStyle="insideOverlay">
+
+                <LinearLayout
+                    android:id="@+id/lineLayoutServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:scrollIndicators="bottom">
+
+
+                    <FrameLayout
+                        android:id="@+id/watchtv_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginRight="35dp"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openTV"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/tv_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:src="@drawable/tv_icon" />
+
+                        <TextView
+                            android:id="@+id/txtwatchtv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Watch TV"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:id="@+id/frontdesk_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:focusedByDefault="true"
+                        android:onClick="openChat"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/chat_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/chat_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtfrontdesk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Frontdesk Chat"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:id="@+id/foods_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:layout_marginRight="35dp"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openFood"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/foods_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/foods_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtfood"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Food &amp; Drinks"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/places_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openPlaces"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/places_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/places_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtplaces"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Places Nearby"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/house_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openHousekeeping"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/housekeeping_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/housekeeping_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txthousekeeping"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Housekeeping"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/services_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openServices"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/services_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/services_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtservices"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Spa &amp; Rental Services"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/offers_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openOffers"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/offers_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/offers_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtoffer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Offers"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/feedback_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openFeedback"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/feedback_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/feedback_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtfeedback"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Feedback"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/flight_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openFlights"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/flight_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/flight_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtflight"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Flight Tracker"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/info_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openInfo"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/guest_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/guest_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtinfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="Your Info"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/faq_frame"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="55dp"
+                        android:layout_gravity="center_vertical"
+                        android:alwaysDrawnWithCache="true"
+                        android:background="@drawable/background_round"
+                        android:drawingCacheQuality="auto"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:onClick="openFaq"
+                        android:translationZ="1dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/faq_icon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:background="@drawable/faq_icon"
+                            android:backgroundTint="@color/black_opaque"/>
+
+                        <TextView
+                            android:id="@+id/txtfaq"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:padding="15dp"
+                            android:text="FAQ"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black_opaque"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

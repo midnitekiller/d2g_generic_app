@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detailCard"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_vertical"
+    android:backgroundTint="#fff"
+    android:backgroundTintMode="multiply"
+    android:drawingCacheQuality="auto"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/detailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#c1000000"
+            android:padding="17dp"
+            android:text="A/P/R Name"
+            android:textAlignment="textStart"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+</FrameLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.direct2guests.d2g_tv.Activities.ServicesSpaCarLists">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_lg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/cartll"
+            android:layout_toLeftOf="@+id/cartll"
+            android:id="@+id/notif"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/new_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="false"
+                android:layout_alignRight="@+id/chat_message"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/badge_circle"
+                android:text="1"
+                android:textSize="16sp"
+                android:translationZ="10dp" />
+
+            <Button
+                android:id="@+id/chat_message"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/message_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/typeText"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeBtnSC"
+            android:layout_toRightOf="@+id/BackButtonSC"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/HomeBtnSC"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/home_logo" />
+
+        <Button
+            android:id="@+id/BackButtonSC"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/HomeBtnSC"
+            android:layout_toRightOf="@+id/HomeBtnSC"
+            android:background="@drawable/back_logo" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/HomeBtnSC"
+            android:layout_toLeftOf="@+id/SpaCarRL"
+            android:gravity="center_vertical|center_horizontal|end">
+
+            <TextView
+                android:id="@+id/SCTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="25dp"
+                android:text="Services Type"
+                android:textColor="#fff"
+                android:textSize="35sp" />
+
+            <ImageView
+                android:id="@+id/SCImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="30dp"
+                android:layout_toRightOf="@+id/SCTitle"
+                android:backgroundTint="#2f000000"
+                android:scaleType="fitXY"
+                android:src="@drawable/spa" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/SpaCarRL"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="#bdffffff">
+
+            <RelativeLayout
+                android:id="@+id/SCCartLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/cartTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/cart_header_bg"
+                    android:padding="9dp"
+                    android:text="CART"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/CarSpaCartLists"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/confirmButton"
+                    android:layout_below="@+id/cartTxt"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:visibility="visible" />
+
+                <RelativeLayout
+                    android:id="@+id/confirmButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/cart_foot_bg"
+                    android:gravity="center_vertical|center_horizontal">
+
+                    <TextView
+                        android:id="@+id/confirmOrderTxt"
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/confirm_button"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="CONFIRM ORDER"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/grandTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="false"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/confirmOrderTxt"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#fff"
+                        android:textSize="26sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/SpaCarListview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:drawSelectorOnTop="false"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/cartll"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/HomeBtnSC"
+            android:layout_toLeftOf="@+id/SpaCarRL">
+
+            <TextView
+                android:id="@+id/quatityIconTxt"
+                android:layout_width="26dp"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/CartButtonSC"
+                android:background="@drawable/badge_circle"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAlignment="center"
+                android:translationZ="30dp" />
+
+            <Button
+                android:id="@+id/CartButtonSC"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/cart_logo" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

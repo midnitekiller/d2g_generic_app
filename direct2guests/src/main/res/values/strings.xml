@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">D2G-TV</string>
+
+    <!-- strings for the activity_main -->
+    <string name="indexWelcome" translatable="false">Welcome</string>
+    <string name="indexTo">to</string>
+    <string name="indexHotelName">D2GApp Hotel</string>
+    <string name="indexGuestName">Guest Name</string>
+    <string name="indexContinueButton">CONTINUE</string>
+
+    <!-- strings for the activity_launcher -->
+    <string name="launcherWelcome">Hello D2G!</string>
+    <string name="launcherDate">December 31, 2017</string>
+    <string name="launcherWatchTV">Watch TV</string>
+    <string name="launcherHotelServices">Hotel Services</string>
+
+
+    <string-array name="currencies1">
+        <item>PHP</item>
+        <item>USD</item>
+        <item>AUD</item>
+        <item>EUR</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HRK</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>ZAR</item>
+    </string-array>
+
+    <string-array name="flight_type">
+        <item>Flight ID</item>
+        <!--<item>Airlines</item>-->
+        <!--<item>Location</item>-->
+    </string-array>
+
+    //airline codes
+    <string-array name="airlinecode">
+        <item>Cebu Pacific (CEB)</item>
+        <item>Air Asia Philippines (EZD)</item>
+        <item>Air Asia (AXM)</item>
+        <item>Philippine Airlines (PAL)</item>
+        <item>Singapore Airlines (SIA)</item>
+        <item>Air New Zealand (ANZ)</item>
+        <item>Korean Air (KAL)</item>
+        <item>Qantas Airways (QFA)</item>
+    </string-array>
+
+    <string-array name="acmonth">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string-array name="acyear">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Filipino</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Arabic</item>
+        <item>French</item>
+        <item>Spanish</item>
+    </string-array>
+
+</resources>
