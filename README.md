@@ -1,2 +1,2 @@
-# d2g_generic_app
-Generic App for D2G
+# just an APP
+Generic App for dee-two-gee
