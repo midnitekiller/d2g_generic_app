@@ -43,6 +43,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
+
 import static com.direct2guests.d2g_tv.NonActivity.Constant.ApiUrl;
 import static com.direct2guests.d2g_tv.NonActivity.Constant.ImgPlaces;
 import static com.direct2guests.d2g_tv.NonActivity.Constant.ServerUrl;
@@ -108,6 +110,8 @@ public class MainActivity extends Activity {
     private MediaPlayer backgroundMusic;
 
     private static final int PREFERENCE_MODE_PRIVATE = 0;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -124,6 +128,8 @@ public class MainActivity extends Activity {
                 System.exit(2);
             }
         });*/
+
+
         Bundle configBundle = new Bundle();
         try {
             setContentView(R.layout.activity_main);
@@ -175,6 +181,8 @@ public class MainActivity extends Activity {
 
         backgroundMusic.start();
         backgroundMusic.setLooping(true);
+
+
 
         if(preferenceSettings.contains("firstrun")){
 
