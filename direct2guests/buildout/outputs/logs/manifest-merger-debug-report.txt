@@ -1,0 +1,375 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+MERGED from [net.butterflytv.utils:rtmp-client:3.0.0RC] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\rtmp-client-3.0.0RC.aar\624cb5a87228a747133596d7b1f1bfbe\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fcd2ed33dbaca116a24d2b1b9e534ed8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\BubbleView-1.0.1.aar\98f01eb2a03b987861e496b1e247da1a\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\volley-1.0.0.aar\85ea498d24b26255caca934fddcc7da4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-r2.4.4.aar\9b02a5e1680d4fda22a98fa92dc9a6e6\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-10.2.4.aar\e9fada53da3319d1e615f5d1f26b0460\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\3cabb2b115493f14a359b6336c00d84b\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1c158f9a38e5228d076c0debb0cb5d36\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a4aea5c45f016cd5b16a8f74e74782d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\20318abb74b32f5269a1ab950f3a8a79\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f8f4bf1fc690f55f16897ca1c3895425\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\67d895cab84f4d2192820e46fd691cdb\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f02ce69a18b373eb7cab708edbfb9de6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\801d256673bbc0d64c70acae151bd5b1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-dash-r2.4.4.aar\a5b5db21a4edce2b79d0ce5c7a95edf2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\2ba5855bbe3d9e016cec11e7deb52f57\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4faa84f947ea467b56470fc9c55841a5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-hls-r2.4.4.aar\e93ffc6dda997d1fe3e60b4e09f8865c\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-smoothstreaming-r2.4.4.aar\4530795b03c2a0e9ed6af890427a25ca\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-ui-r2.4.4.aar\db577650818ca9511f1e1a41164faaee\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-core-r2.4.4.aar\d9559b889efced84d0170b2dbec1ad71\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+	package
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:1-62:12
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:5:5-43
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:7:5-67
+MERGED from [net.butterflytv.utils:rtmp-client:3.0.0RC] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\rtmp-client-3.0.0RC.aar\624cb5a87228a747133596d7b1f1bfbe\AndroidManifest.xml:11:5-67
+MERGED from [net.butterflytv.utils:rtmp-client:3.0.0RC] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\rtmp-client-3.0.0RC.aar\624cb5a87228a747133596d7b1f1bfbe\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:13:22-78
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:16:9-52
+uses-feature#android.software.leanback
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:18:5-20:35
+	android:required
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:20:9-32
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:19:9-49
+application
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:22:5-60:19
+MERGED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fcd2ed33dbaca116a24d2b1b9e534ed8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fcd2ed33dbaca116a24d2b1b9e534ed8\AndroidManifest.xml:9:5-20
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\BubbleView-1.0.1.aar\98f01eb2a03b987861e496b1e247da1a\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\BubbleView-1.0.1.aar\98f01eb2a03b987861e496b1e247da1a\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\volley-1.0.0.aar\85ea498d24b26255caca934fddcc7da4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\volley-1.0.0.aar\85ea498d24b26255caca934fddcc7da4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-10.2.4.aar\e9fada53da3319d1e615f5d1f26b0460\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-10.2.4.aar\e9fada53da3319d1e615f5d1f26b0460\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\3cabb2b115493f14a359b6336c00d84b\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\3cabb2b115493f14a359b6336c00d84b\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1c158f9a38e5228d076c0debb0cb5d36\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1c158f9a38e5228d076c0debb0cb5d36\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a4aea5c45f016cd5b16a8f74e74782d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a4aea5c45f016cd5b16a8f74e74782d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\20318abb74b32f5269a1ab950f3a8a79\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\20318abb74b32f5269a1ab950f3a8a79\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f8f4bf1fc690f55f16897ca1c3895425\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f8f4bf1fc690f55f16897ca1c3895425\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\67d895cab84f4d2192820e46fd691cdb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\67d895cab84f4d2192820e46fd691cdb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f02ce69a18b373eb7cab708edbfb9de6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f02ce69a18b373eb7cab708edbfb9de6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\801d256673bbc0d64c70acae151bd5b1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\801d256673bbc0d64c70acae151bd5b1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\2ba5855bbe3d9e016cec11e7deb52f57\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\2ba5855bbe3d9e016cec11e7deb52f57\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4faa84f947ea467b56470fc9c55841a5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4faa84f947ea467b56470fc9c55841a5\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:26:9-41
+	android:largeHeap
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:27:9-33
+	android:icon
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:25:9-43
+	android:allowBackup
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:29:9-46
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:23:9-56
+activity#com.direct2guests.d2g_tv.Activities.MainActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:30:9-40:20
+	android:screenOrientation
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:32:13-50
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:31:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:33:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.HOME
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:36:17-73
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:36:27-70
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:37:27-73
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:38:27-74
+activity#com.direct2guests.d2g_tv.Activities.LauncherActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:41:9-43:53
+	android:screenOrientation
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:43:13-50
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:42:13-56
+activity#com.direct2guests.d2g_tv.Activities.WatchTVActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:44:9-64
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:44:19-61
+activity#com.direct2guests.d2g_tv.Activities.HotelServicesActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:45:9-70
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:45:19-67
+activity#com.direct2guests.d2g_tv.Activities.ChatActivity.FrontDeskChatActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:46:9-48:71
+	android:windowSoftInputMode
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:48:13-68
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:47:13-74
+activity#com.direct2guests.d2g_tv.Activities.FoodDrinksActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:49:9-67
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:49:19-64
+activity#com.direct2guests.d2g_tv.Activities.PlacesNearbyActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:50:9-69
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:50:19-66
+activity#com.direct2guests.d2g_tv.Activities.ServicesActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:51:9-65
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:51:19-62
+activity#com.direct2guests.d2g_tv.Activities.OffersActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:52:9-63
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:52:19-60
+activity#com.direct2guests.d2g_tv.Activities.PlacesNearbyDetailsActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:53:9-76
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:53:19-73
+activity#com.direct2guests.d2g_tv.Activities.ServicesSpaCarLists
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:54:9-68
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:54:19-65
+activity#com.direct2guests.d2g_tv.Activities.MenuLists
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:55:9-58
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:55:19-55
+activity#com.direct2guests.d2g_tv.Activities.OffersDetailsActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:56:9-70
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:56:19-67
+activity#com.direct2guests.d2g_tv.Activities.ChannelListActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:57:9-68
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:57:19-65
+activity#com.direct2guests.d2g_tv.Activities.FlightTrackerActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:58:9-70
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:58:19-67
+activity#com.direct2guests.d2g_tv.Activities.FaqActivity
+ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:59:9-69
+	android:name
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml:59:19-57
+uses-sdk
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+MERGED from [net.butterflytv.utils:rtmp-client:3.0.0RC] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\rtmp-client-3.0.0RC.aar\624cb5a87228a747133596d7b1f1bfbe\AndroidManifest.xml:7:5-9:41
+MERGED from [net.butterflytv.utils:rtmp-client:3.0.0RC] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\rtmp-client-3.0.0RC.aar\624cb5a87228a747133596d7b1f1bfbe\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fcd2ed33dbaca116a24d2b1b9e534ed8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fcd2ed33dbaca116a24d2b1b9e534ed8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\BubbleView-1.0.1.aar\98f01eb2a03b987861e496b1e247da1a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\BubbleView-1.0.1.aar\98f01eb2a03b987861e496b1e247da1a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\volley-1.0.0.aar\85ea498d24b26255caca934fddcc7da4\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\volley-1.0.0.aar\85ea498d24b26255caca934fddcc7da4\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.exoplayer:exoplayer:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-r2.4.4.aar\9b02a5e1680d4fda22a98fa92dc9a6e6\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-r2.4.4.aar\9b02a5e1680d4fda22a98fa92dc9a6e6\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-10.2.4.aar\e9fada53da3319d1e615f5d1f26b0460\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-10.2.4.aar\e9fada53da3319d1e615f5d1f26b0460\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\3cabb2b115493f14a359b6336c00d84b\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\3cabb2b115493f14a359b6336c00d84b\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1c158f9a38e5228d076c0debb0cb5d36\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1c158f9a38e5228d076c0debb0cb5d36\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a4aea5c45f016cd5b16a8f74e74782d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a4aea5c45f016cd5b16a8f74e74782d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\20318abb74b32f5269a1ab950f3a8a79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\20318abb74b32f5269a1ab950f3a8a79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f8f4bf1fc690f55f16897ca1c3895425\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f8f4bf1fc690f55f16897ca1c3895425\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\67d895cab84f4d2192820e46fd691cdb\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\67d895cab84f4d2192820e46fd691cdb\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f02ce69a18b373eb7cab708edbfb9de6\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f02ce69a18b373eb7cab708edbfb9de6\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\801d256673bbc0d64c70acae151bd5b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\801d256673bbc0d64c70acae151bd5b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-dash-r2.4.4.aar\a5b5db21a4edce2b79d0ce5c7a95edf2\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-dash-r2.4.4.aar\a5b5db21a4edce2b79d0ce5c7a95edf2\AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\2ba5855bbe3d9e016cec11e7deb52f57\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\2ba5855bbe3d9e016cec11e7deb52f57\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4faa84f947ea467b56470fc9c55841a5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4faa84f947ea467b56470fc9c55841a5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-hls-r2.4.4.aar\e93ffc6dda997d1fe3e60b4e09f8865c\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-hls-r2.4.4.aar\e93ffc6dda997d1fe3e60b4e09f8865c\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-smoothstreaming-r2.4.4.aar\4530795b03c2a0e9ed6af890427a25ca\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-smoothstreaming-r2.4.4.aar\4530795b03c2a0e9ed6af890427a25ca\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-ui-r2.4.4.aar\db577650818ca9511f1e1a41164faaee\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-ui-r2.4.4.aar\db577650818ca9511f1e1a41164faaee\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-core-r2.4.4.aar\d9559b889efced84d0170b2dbec1ad71\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.4.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\exoplayer-core-r2.4.4.aar\d9559b889efced84d0170b2dbec1ad71\AndroidManifest.xml:21:5-23:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+		ADDED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\01c932a96db90dc7c14d56e3310efb99\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1c158f9a38e5228d076c0debb0cb5d36\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1c158f9a38e5228d076c0debb0cb5d36\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a4aea5c45f016cd5b16a8f74e74782d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a4aea5c45f016cd5b16a8f74e74782d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\20318abb74b32f5269a1ab950f3a8a79\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\20318abb74b32f5269a1ab950f3a8a79\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f8f4bf1fc690f55f16897ca1c3895425\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f8f4bf1fc690f55f16897ca1c3895425\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\67d895cab84f4d2192820e46fd691cdb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\67d895cab84f4d2192820e46fd691cdb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f02ce69a18b373eb7cab708edbfb9de6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f02ce69a18b373eb7cab708edbfb9de6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\801d256673bbc0d64c70acae151bd5b1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\801d256673bbc0d64c70acae151bd5b1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\2ba5855bbe3d9e016cec11e7deb52f57\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\2ba5855bbe3d9e016cec11e7deb52f57\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4faa84f947ea467b56470fc9c55841a5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4faa84f947ea467b56470fc9c55841a5\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:leanback-v17:26.1.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\leanback-v17-26.1.0.aar\1c792c9b3ac79bd8f847c5e31b897fd7\AndroidManifest.xml:24:13-51
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-impl-10.2.4.aar\312608ba283da4002f3d61b1feb66a6d\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-analytics-10.2.4.aar\27764a1fcb9f8f790452599522db0de0\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\1a3ac410fefb7a1292b633396b292af4\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\023fbe3b9b253f5960e9b7623b33ad5c\AndroidManifest.xml:20:20-65
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\D2G\Desktop\Lief Filez\ExoPlayer\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c58804806b30150a57d42f4d3426a231\AndroidManifest.xml:26:13-58

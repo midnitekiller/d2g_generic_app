@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\D2G\\Desktop\\Lief Filez\\d2g_app - latest\\d2g_app - latest\\direct2guests\\buildout\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\D2G\\Desktop\\Lief Filez\\ExoPlayer\\caches\\transforms-1\\files-1.1\\leanback-v17-26.1.0.aar\\1c792c9b3ac79bd8f847c5e31b897fd7\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,133,178",
+                        "endColumns": "77,44,46",
+                        "endOffsets": "128,173,220"
+                    }
+                }
+            ]
+        }
+    ]
+}
