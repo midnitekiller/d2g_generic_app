@@ -9,7 +9,7 @@
         android:id="@+id/launcher_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_lg"
+        android:background="@drawable/background_lg2"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
@@ -43,14 +43,14 @@
             android:id="@+id/dateView_hs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/timeDaily"
+            android:layout_alignBottom="@+id/timeDaily"
             android:layout_marginEnd="19dp"
+            android:layout_toStartOf="@+id/timeDaily"
             android:text="@string/launcherDate"
             android:textAlignment="viewEnd"
             android:textColor="#fff"
-            android:textSize="30sp"
-            android:layout_alignBaseline="@+id/timeDaily"
-            android:layout_alignBottom="@+id/timeDaily"
-            android:layout_toStartOf="@+id/timeDaily" />
+            android:textSize="30sp" />
 
         <TextClock
             android:id="@+id/timeDaily"
@@ -66,18 +66,18 @@
             android:id="@+id/widgets"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/weather"
-            android:layout_alignRight="@+id/weather"
             android:layout_alignWithParentIfMissing="true"
             android:layout_below="@+id/weather"
+            android:layout_alignLeft="@+id/weather"
+            android:layout_alignRight="@+id/weather"
             android:gravity="right">
 
             <RelativeLayout
                 android:id="@+id/notif"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_alignParentRight="true"
                 android:layout_alignParentTop="false"
+                android:layout_alignParentRight="true"
                 android:visibility="gone">
 
                 <TextView
@@ -114,8 +114,8 @@
             android:id="@+id/weather"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_alignRight="@+id/timeDaily"
             android:layout_below="@+id/dateView_hs"
+            android:layout_alignRight="@+id/timeDaily"
             android:gravity="right"
             android:visibility="gone">
 
@@ -154,17 +154,17 @@
             android:id="@+id/selections_hs"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/widgets"
+            android:layout_alignParentStart="true"
             android:layout_marginTop="20dp">
 
             <ImageView
                 android:id="@+id/hotelLogo_hs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="false"
-                android:layout_alignParentStart="true"
                 android:layout_alignWithParentIfMissing="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="false"
                 android:layout_centerInParent="false"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="20dp"
@@ -221,14 +221,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Watch TV"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
 
@@ -255,21 +255,21 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/chat_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtfrontdesk"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Frontdesk Chat"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
 
@@ -278,8 +278,8 @@
                         android:layout_width="250dp"
                         android:layout_height="250dp"
                         android:layout_gravity="center_vertical"
-                        android:alwaysDrawnWithCache="true"
                         android:layout_marginRight="35dp"
+                        android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
                         android:focusable="true"
@@ -295,21 +295,21 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/foods_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtfood"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Food &amp; Drinks"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
 
                     </FrameLayout>
 
@@ -317,8 +317,8 @@
                         android:id="@+id/places_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="35dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -335,29 +335,29 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/places_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtplaces"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Places Nearby"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/house_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="35dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -374,29 +374,29 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/housekeeping_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txthousekeeping"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Housekeeping"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/services_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="35dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -413,29 +413,29 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/services_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtservices"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Spa &amp; Rental Services"
                             android:textAlignment="center"
-                            android:textStyle="bold"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/offers_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="35dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -452,29 +452,29 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/offers_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtoffer"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Offers"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/feedback_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="35dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -491,29 +491,29 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/feedback_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtfeedback"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Feedback"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/flight_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="35dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -530,29 +530,29 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/flight_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtflight"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Flight Tracker"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/info_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="35dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="35dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -569,29 +569,29 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/guest_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtinfo"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="Your Info"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/faq_frame"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
-                        android:layout_marginRight="55dp"
                         android:layout_gravity="center_vertical"
+                        android:layout_marginRight="55dp"
                         android:alwaysDrawnWithCache="true"
                         android:background="@drawable/background_round"
                         android:drawingCacheQuality="auto"
@@ -608,21 +608,21 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
                             android:background="@drawable/faq_icon"
-                            android:backgroundTint="@color/black_opaque"/>
+                            android:backgroundTint="@color/black_opaque" />
 
                         <TextView
                             android:id="@+id/txtfaq"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="0dp"
                             android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
                             android:padding="15dp"
                             android:text="FAQ"
-                            android:textStyle="bold"
                             android:textAlignment="center"
                             android:textColor="@color/black_opaque"
-                            android:textSize="24sp" />
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
                     </FrameLayout>
 
                 </LinearLayout>

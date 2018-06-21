@@ -326,7 +326,7 @@ public class PlacesNearbyDetailsActivity extends Activity {
                 child = inflater.inflate(R.layout.places_detail_card, detailsCard, false);
                 detailFrameRestaurant[i] = child.findViewById(R.id.detailCard);
                 final ImageView cardImage = child.findViewById(R.id.detailImage);
-                Picasso.with(getApplicationContext()).load(adImg1X[i]).fit().into(cardImage);
+//                Picasso.with(getApplicationContext()).load(adImg1X[i]).fit().into(cardImage);
                 cardImage.setColorFilter(ContextCompat.getColor(getApplicationContext(), R.color.adcleartint), PorterDuff.Mode.MULTIPLY);
                 detailFrameRestaurant[i].setOnFocusChangeListener(new View.OnFocusChangeListener() {
                     @Override

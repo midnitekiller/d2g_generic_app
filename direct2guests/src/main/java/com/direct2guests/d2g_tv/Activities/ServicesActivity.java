@@ -135,7 +135,7 @@ public class ServicesActivity extends Activity {
         setAccess(access);*/
         ServiceHotelLogo = findViewById(R.id.servHotelLogo);
         ServicesCardsParent = findViewById(R.id.servCards);
-        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(ServiceHotelLogo);
+//        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(ServiceHotelLogo);
 
         chatNotiff = findViewById(R.id.notif);
         // Loading Font Face

@@ -9,18 +9,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_lg"
+        android:background="@drawable/background_lg2"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="8dp">
 
         <Button
             android:id="@+id/HomeBtnOffer"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginBottom="20dp"
             android:layout_marginLeft="75dp"
             android:layout_marginTop="45dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/home_logo" />
 
         <Button
@@ -43,12 +43,12 @@
             android:textSize="30sp" />
 
         <RelativeLayout
+            android:id="@+id/notif"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/OfferTitle"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="49dp"
-            android:id="@+id/notif"
             android:visibility="gone">
 
             <TextView
@@ -73,9 +73,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/HomeBtnOffer"
-            android:paddingBottom="20dp"
             android:paddingLeft="15dp"
-            android:paddingRight="15dp">
+            android:paddingRight="15dp"
+            android:paddingBottom="20dp">
 
             <LinearLayout
                 android:id="@+id/outerCardHolder"

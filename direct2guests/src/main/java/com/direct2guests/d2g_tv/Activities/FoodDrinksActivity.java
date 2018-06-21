@@ -140,7 +140,7 @@ public class FoodDrinksActivity extends Activity {
         queue = Volley.newRequestQueue(this);
 
         chatNotiff = findViewById(R.id.notif);
-        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(HotelLogo);
+//        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(HotelLogo);
         fooddrinksFocus();
     }
     @Override

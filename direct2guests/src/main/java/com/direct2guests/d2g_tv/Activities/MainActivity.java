@@ -179,8 +179,8 @@ public class MainActivity extends Activity {
         unique_id = Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID);
         Log.d("DIR",getApplicationContext().getFilesDir()+"/d2g_support.apk");
 
-        backgroundMusic.start();
-        backgroundMusic.setLooping(true);
+//        backgroundMusic.start();
+//        backgroundMusic.setLooping(true);
 
 
 
@@ -312,8 +312,8 @@ public class MainActivity extends Activity {
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
         //end code hide status bar
-        backgroundMusic.start();
-        backgroundMusic.setLooping(true);
+//        backgroundMusic.start();
+//        backgroundMusic.setLooping(true);
     }
 
     @Override

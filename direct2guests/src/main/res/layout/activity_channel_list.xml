@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#fff"
+        android:background="@color/background_gradient_end"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
@@ -28,24 +28,24 @@
                 android:layout_height="wrap_content"
                 android:text="Channel List"
                 android:textColor="#e7e7e7"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textSize="30sp" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/ListLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/TitleLayout">
+            android:layout_below="@+id/TitleLayout"
+            android:layout_marginTop="0dp">
 
             <ListView
                 android:id="@+id/channelListview"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
+                android:layout_width="939dp"
+                android:layout_height="375dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:divider="#e9e9e9"
                 android:dividerHeight="1dp" />
         </RelativeLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_lg"
+    android:background="@drawable/background_lg2"
     tools:context="com.direct2guests.d2g_tv.Activities.FoodDrinksActivity">
 
     <RelativeLayout
@@ -18,9 +18,9 @@
             android:id="@+id/HomeButtonFD"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginBottom="35dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="45dp"
+            android:layout_marginBottom="35dp"
             android:background="@drawable/home_logo"
             android:backgroundTintMode="src_atop"
             android:focusableInTouchMode="true" />
@@ -39,12 +39,12 @@
             android:id="@+id/FDTitle"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
+            android:layout_alignTop="@+id/backButtonFD"
+            android:layout_toEndOf="@+id/backButtonFD"
             android:gravity="center_vertical"
             android:text="Food and Drinks"
             android:textColor="#fff"
-            android:textSize="35sp"
-            android:layout_alignTop="@+id/backButtonFD"
-            android:layout_toEndOf="@+id/backButtonFD" />
+            android:textSize="35sp" />
 
         <RelativeLayout
             android:id="@+id/FDScrollLogo"
@@ -56,11 +56,11 @@
                 android:id="@+id/HotelLogoFD"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_alignWithParentIfMissing="true"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:adjustViewBounds="true"
                 android:drawingCacheQuality="auto" />
 
@@ -73,9 +73,9 @@
                     android:id="@+id/FDLinear"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_margin="25dp"
                     android:gravity="center_vertical|center_horizontal"
-                    android:orientation="horizontal"
-                    android:layout_margin="25dp">
+                    android:orientation="horizontal">
 
                 </LinearLayout>
             </HorizontalScrollView>
@@ -83,13 +83,13 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/notif"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/FDTitle"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="58dp"
-            android:visibility="gone"
-            android:id="@+id/notif">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/new_message"

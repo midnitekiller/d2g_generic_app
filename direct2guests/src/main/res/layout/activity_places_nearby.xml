@@ -5,7 +5,7 @@
     android:id="@+id/placesConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_lg"
+    android:background="@drawable/background_lg2"
     tools:context="com.direct2guests.d2g_tv.Activities.PlacesNearbyActivity">
 
     <RelativeLayout
@@ -35,9 +35,9 @@
             android:layout_height="70dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginBottom="35dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="45dp"
+            android:layout_marginBottom="35dp"
             android:background="@drawable/home_logo"
             android:backgroundTintMode="multiply"
             android:focusable="true" />
@@ -53,12 +53,12 @@
             android:focusable="true" />
 
         <RelativeLayout
+            android:id="@+id/notif"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/placeTextView"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="37dp"
-            android:id="@+id/notif"
             android:visibility="gone">
 
             <TextView
@@ -80,22 +80,22 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/relativeLayout3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/HomeButton"
-            android:id="@+id/relativeLayout3">
+            android:layout_below="@+id/HomeButton">
 
             <ImageView
                 android:id="@+id/HotelLogoImageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="false"
-                android:layout_alignParentStart="true"
                 android:layout_alignWithParentIfMissing="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="false"
                 android:layout_centerInParent="false"
                 android:layout_centerVertical="true"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:adjustViewBounds="true" />
 
             <HorizontalScrollView

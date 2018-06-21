@@ -267,7 +267,7 @@ public class HotelServicesActivity extends Activity {
         welcomeguest_txtview.setText("Hello " + vdata.getGuestFirstName() + "!");
 
         access = vdata.getHotelAccess();
-        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotelimg_view);
+//        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotelimg_view);
 
         onFocusFrames();
         setAccess(access);
