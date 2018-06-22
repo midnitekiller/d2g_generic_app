@@ -11,8 +11,8 @@
         android:layout_height="match_parent"
         android:background="#fff"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <RelativeLayout
             android:id="@+id/TitleLayout"
@@ -40,15 +40,47 @@
 
             <ListView
                 android:id="@+id/channelListview"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="20dp"
                 android:divider="#e9e9e9"
-                android:dividerHeight="1dp" />
+                android:dividerHeight="1dp">
+
+            </ListView>
+
+            <FrameLayout
+                android:layout_width="604dp"
+                android:layout_height="363dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="24dp">
+
+                <VideoView
+                    android:id="@+id/videoView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                    android:id="@+id/channel_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:translationZ="3dp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:resize_mode="fill">
+
+                </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+            </FrameLayout>
         </RelativeLayout>
 
     </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

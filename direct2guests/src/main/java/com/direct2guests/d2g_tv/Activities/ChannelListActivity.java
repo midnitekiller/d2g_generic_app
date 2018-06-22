@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.VideoView;
 
 import com.android.volley.VolleyError;
 import com.direct2guests.d2g_tv.NonActivity.ChannelListAdapter;
@@ -15,8 +16,20 @@ import com.direct2guests.d2g_tv.NonActivity.Variable;
 import com.direct2guests.d2g_tv.NonActivity.VolleyCallback;
 import com.direct2guests.d2g_tv.NonActivity.VolleyCallbackArray;
 import com.direct2guests.d2g_tv.R;
+import com.google.android.exoplayer2.DefaultRenderersFactory;
+import com.google.android.exoplayer2.SimpleExoPlayer;
+import com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection;
+import com.google.android.exoplayer2.trackselection.TrackSelection;
+import com.google.android.exoplayer2.ui.SimpleExoPlayerView;
+import com.google.android.exoplayer2.upstream.BandwidthMeter;
+import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.direct2guests.d2g_tv.Activities.WatchTVActivity;
+
+
+
+
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -33,6 +46,12 @@ public class ChannelListActivity extends Activity {
     private NetworkConnection nc = new NetworkConnection();
     private String[] channelTitle, channelURL;
     private ListView channel_listview;
+
+    private VideoView RTSPPlayer;
+    private SimpleExoPlayerView simpleExoPlayer;
+    private TrackSelection.Factory videoTrackSelectionFactory;
+    private DefaultRenderersFactory defaultRenderersFactory;
+
 
     private Tracker mTracker;
     @Override
@@ -65,6 +84,20 @@ public class ChannelListActivity extends Activity {
         mTracker.setScreenName(vdata.getHotelName()+" ~ Room No. "+vdata.getRoomNumber()+" ~ "+"Channel List View");
         mTracker.send(new HitBuilders.ScreenViewBuilder().build());
         getChannels();
+
+
+
+        BandwidthMeter bandwidthMeter = new DefaultBandwidthMeter();
+        videoTrackSelectionFactory = new AdaptiveTrackSelection.Factory(bandwidthMeter);
+        simpleExoPlayer = findViewById(R.id.channel_view2);
+        simpleExoPlayer.setUseController(false);
+        defaultRenderersFactory = new DefaultRenderersFactory(this.getApplicationContext(), null, DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER);
+        RTSPPlayer = findViewById(R.id.videoView2);
+
+
+
+
+
     }
     @Override
     protected void onResume(){
@@ -106,6 +139,7 @@ public class ChannelListActivity extends Activity {
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             channel_adapter.setPosition(i);
                             channel_adapter.notifyDataSetChanged();
+
                         }
 
                         @Override

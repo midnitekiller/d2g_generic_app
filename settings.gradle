@@ -1,1 +1,1 @@
-include ':direct2guests'
+include ':direct2guests', ':app'

@@ -73,6 +73,12 @@ public class MainActivity extends Activity {
     private String[] adsPimg1,adsPimg2,adsPimg3,adsPimg4,adsPimg5;
     private String[] version, verName;
 
+
+    // Fire base analytics
+//    private FirebaseAnalytics mFirebaseAnalytics;
+    // End of firebase analytics
+
+
     DownloadManager downloadManager;
     String downloadFileUrl = ServerUrl + apkPath + "direct2guesttv.apk";
     private long myDownloadReference;
@@ -159,6 +165,11 @@ public class MainActivity extends Activity {
         hotelname = new EditText(this);
 
         preferenceSettings = getPreferences(PREFERENCE_MODE_PRIVATE);
+
+        
+        // Obtain the FirebaseAnalytics instance.
+//        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
 
     }
 

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/d2g_app - latest.iml" filepath="$PROJECT_DIR$/d2g_app - latest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d2g_generic_app.iml" filepath="$PROJECT_DIR$/d2g_generic_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/direct2guests/direct2guests.iml" filepath="$PROJECT_DIR$/direct2guests/direct2guests.iml" />
     </modules>
   </component>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "536298127703",
+    "firebase_url": "https://direct2guests-60205.firebaseio.com",
+    "project_id": "direct2guests-60205",
+    "storage_bucket": "direct2guests-60205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536298127703:android:726d503eda625bdd",
+        "android_client_info": {
+          "package_name": "com.direct2guests.d2g_tv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536298127703-hmpkkcl7o9jpblmnkbtc9e2476lscahn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ80iU7hGsC8nBC5HZ86qcrn0oh-koJec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
