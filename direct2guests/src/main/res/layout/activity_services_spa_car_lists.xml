@@ -9,25 +9,25 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_lg"
+        android:background="@drawable/background_lg2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
         <RelativeLayout
+            android:id="@+id/notif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/cartll"
             android:layout_toLeftOf="@+id/cartll"
-            android:id="@+id/notif"
             android:visibility="gone">
 
             <TextView
                 android:id="@+id/new_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="false"
                 android:layout_alignRight="@+id/chat_message"
+                android:layout_alignParentEnd="false"
                 android:layout_marginEnd="5dp"
                 android:background="@drawable/badge_circle"
                 android:text="1"
@@ -66,11 +66,12 @@
             android:layout_alignTop="@+id/HomeBtnSC"
             android:layout_toRightOf="@+id/HomeBtnSC"
             android:background="@drawable/back_logo" />
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
             android:layout_below="@+id/HomeBtnSC"
+            android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@+id/SpaCarRL"
             android:gravity="center_vertical|center_horizontal|end">
 
@@ -151,9 +152,9 @@
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
                         android:text="CONFIRM ORDER"
-                        android:textStyle="bold"
                         android:textColor="#fff"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/grandTotal"

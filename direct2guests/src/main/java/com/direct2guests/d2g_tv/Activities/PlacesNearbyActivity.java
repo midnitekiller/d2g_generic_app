@@ -135,7 +135,7 @@ public class PlacesNearbyActivity extends Activity {
         PubsTextView.setTypeface(fontRegRale);
         RestaurantsTextView.setTypeface(fontRegRale);
 
-        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotelimg_view);
+//        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotelimg_view);
         onFocusFrames();
         Activities.requestFocus();
     }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    build-mode="COLD"
+    density="tvdpi"
+    format="10"
+    plugin-version="3.2.0-alpha17"
+    timestamp="1528790330111"
+    token="-5381170612378041617"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1528790065807"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\instant-run-apk\debug\direct2guests-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\c4029ffa57452eb1afbca22d3243a95f49cd3e94.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1528790256035"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1528790313169"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\split-apk\debug\slices\c4029ffa57452eb1afbca22d3243a95f49cd3e94.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\D2G\Desktop\Lief Filez\d2g_app - latest\d2g_app - latest\direct2guests\buildout\intermediates\instant-run-apk\debug\direct2guests-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1528790330111"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>

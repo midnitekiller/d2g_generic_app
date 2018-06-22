@@ -10,7 +10,7 @@
         android:id="@+id/placesRelativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_lg"
+        android:background="@drawable/background_lg2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
@@ -19,13 +19,13 @@
             android:id="@+id/HomeButtonDetails"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginBottom="35dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="45dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/home_logo"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:focusedByDefault="true"
-            android:background="@drawable/home_logo" />
+            android:focusedByDefault="true" />
 
         <Button
             android:id="@+id/BackButtonDetails"
@@ -33,18 +33,18 @@
             android:layout_height="70dp"
             android:layout_alignTop="@+id/HomeButtonDetails"
             android:layout_toRightOf="@+id/HomeButtonDetails"
+            android:background="@drawable/back_logo"
             android:focusable="true"
-            android:focusableInTouchMode="true"
-            android:background="@drawable/back_logo" />
+            android:focusableInTouchMode="true" />
 
         <RelativeLayout
+            android:id="@+id/notif"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/PlacesDetailTitle"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="49dp"
-            android:visibility="gone"
-            android:id="@+id/notif">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/new_message"

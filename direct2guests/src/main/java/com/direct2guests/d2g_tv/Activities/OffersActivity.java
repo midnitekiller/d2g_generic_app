@@ -131,7 +131,7 @@ public class OffersActivity extends Activity {
         Typeface fontReg = Typeface.createFromAsset(getAssets(), fontPathRegCav);
         Typeface fontBold = Typeface.createFromAsset(getAssets(), fontPathBoldCav);
 
-        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotelLogo);
+//        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotelLogo);
         onFocusClick();
     }
     @Override

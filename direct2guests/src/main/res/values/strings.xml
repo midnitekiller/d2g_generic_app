@@ -4,9 +4,9 @@
     <!-- strings for the activity_main -->
     <string name="indexWelcome" translatable="false">Welcome</string>
     <string name="indexTo">to</string>
-    <string name="indexHotelName">D2GApp Hotel</string>
+    <string name="indexHotelName">D2G Hotel</string>
     <string name="indexGuestName">Guest Name</string>
-    <string name="indexContinueButton">CONTINUE</string>
+    <string name="indexContinueButton">continue</string>
 
     <!-- strings for the activity_launcher -->
     <string name="launcherWelcome">Hello D2G!</string>

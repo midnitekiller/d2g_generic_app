@@ -66,7 +66,6 @@ public class ChannelListActivity extends Activity {
 
         AnalyticsApplication application = (AnalyticsApplication) getApplicationContext();
         mTracker = application.getDefaultTracker();
-
         vdata = (Variable)getIntent().getSerializableExtra(Variable.EXTRA);
 
         channel_listview = findViewById(R.id.channelListview);
@@ -127,6 +126,9 @@ public class ChannelListActivity extends Activity {
                         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                             channel_adapter.setPosition(i);
                             channel_adapter.notifyDataSetChanged();
+
+
+
                             Intent z = new Intent(ChannelListActivity.this, WatchTVActivity.class);
                             z.putExtra("CHANNEL_NUM", i);
                             z.putExtra(Variable.EXTRA, vdata);
@@ -140,6 +142,10 @@ public class ChannelListActivity extends Activity {
                             channel_adapter.setPosition(i);
                             channel_adapter.notifyDataSetChanged();
 
+<<<<<<< HEAD
+=======
+                        
+>>>>>>> d3abbaa72109be04b8d0e4337991768c5e5ffd4d
                         }
 
                         @Override

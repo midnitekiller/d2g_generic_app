@@ -7,5 +7,9 @@
 /build
 /captures
 .externalNativeBuild
+<<<<<<< HEAD
 direct2guests/buildout
 /buildout
+=======
+/direct2guests/buildout
+>>>>>>> d3abbaa72109be04b8d0e4337991768c5e5ffd4d

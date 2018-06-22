@@ -10,7 +10,7 @@
         android:id="@+id/FaqLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_lg"
+        android:background="@drawable/background_lg2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
@@ -47,8 +47,8 @@
             android:id="@+id/notif"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/FaqTitle"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="49dp"
             android:visibility="gone">
 
@@ -73,17 +73,17 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentLeft="false"
-            android:layout_below="@+id/FaqTitle">
+            android:layout_below="@+id/FaqTitle"
+            android:layout_alignParentLeft="false">
 
             <ExpandableListView
                 android:id="@+id/faqList"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="100dp"
-                android:layout_marginRight="100dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="10dp"
                 android:layout_toRightOf="@+id/hotelLogo" />
 
             <ImageView

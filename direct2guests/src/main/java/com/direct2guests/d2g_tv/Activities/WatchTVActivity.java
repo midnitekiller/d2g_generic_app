@@ -214,6 +214,8 @@ public class WatchTVActivity extends Activity {
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
         //end code hide status bar
+
+
         mTracker.setScreenName(vdata.getHotelName()+" ~ Room No. "+vdata.getRoomNumber()+" ~ "+"Watching TV View");
         mTracker.send(new HitBuilders.ScreenViewBuilder().build());
 
@@ -294,7 +296,7 @@ public class WatchTVActivity extends Activity {
                         RTSPPlayer.setVisibility(View.VISIBLE);
                     }
                 }
-            }else{
+                    }else{
                 if(channelURL.length == onChannel+1) {
                     if (channelType[0].equals("HLS") || channelType[0].equals("RTMP") || channelType[0].equals("HTTP")) {
                         RTSPPlayer.stopPlayback();
@@ -390,6 +392,8 @@ public class WatchTVActivity extends Activity {
                 onChannel--;
             }
             displayChannel(onChannel);
+
+
             //displayRTSP(onChannel);
         }else if((keyCode == KeyEvent.KEYCODE_HOME && KeyEvent.ACTION_DOWN == event.getAction()) || keyCode == KeyEvent.KEYCODE_HOME && KeyEvent.ACTION_UP == event.getAction()){
             //do nothing

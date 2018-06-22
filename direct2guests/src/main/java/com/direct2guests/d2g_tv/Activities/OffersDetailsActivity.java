@@ -285,7 +285,7 @@ public class OffersDetailsActivity extends Activity {
                                         origprice.setText(vdata.getCurrency()+" "+origpricestr);
                                         origprice.setPaintFlags(origprice.getPaintFlags()| Paint.STRIKE_THRU_TEXT_FLAG);
                                         childOfferHolder[j].addView(childInner);
-                                        Picasso.with(getApplicationContext()).load(vdata.getServerURL() + imgstr).resize(140, 140).into(image);
+//                                        Picasso.with(getApplicationContext()).load(vdata.getServerURL() + imgstr).resize(140, 140).into(image);
                                     }catch (ArrayIndexOutOfBoundsException e){
                                         //do nothing
                                         Log.d("ArrayIndextOB", "fail");

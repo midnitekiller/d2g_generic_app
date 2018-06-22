@@ -118,7 +118,7 @@ public class LauncherActivity extends Activity {
         date_txtview.setText(currentDateString);
         guestname_txtview.setText("Welcome "+vdata.getGuestFirstName()+" !");
 
-        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotellogo_imgview);
+//        Picasso.with(getApplicationContext()).load(vdata.getServerURL()+vdata.getHotelLogo()).into(hotellogo_imgview);
 
         onFocusFrames();
     }

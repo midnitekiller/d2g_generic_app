@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.direct2guests.d2g_tv"
+      android:versionCode="1"
+      android:versionName="1.0.10"
+      split="lib_c4029ffa57452eb1afbca22d3243a95f49cd3e94_apk">
+</manifest>

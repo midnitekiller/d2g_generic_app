@@ -10,7 +10,7 @@
         android:id="@+id/flightTracker"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_lg"
+        android:background="@drawable/background_lg2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
@@ -33,12 +33,11 @@
             android:id="@+id/searchFlight"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_alignParentRight="false"
             android:layout_alignTop="@+id/notif"
+            android:layout_alignParentRight="false"
             android:layout_centerVertical="false"
             android:layout_toLeftOf="@+id/notif"
             android:background="@drawable/search" />
-
 
 
         <Button
@@ -73,8 +72,8 @@
             android:id="@+id/notif"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/FlightTitle"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="49dp"
             android:visibility="gone">
 
@@ -121,9 +120,9 @@
                         android:id="@+id/flightTomorrow"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="50dp"
                         android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
                         android:text="Upcoming Flights"
                         android:textColor="#fff"
                         android:textSize="20sp"
@@ -197,9 +196,9 @@
                         android:id="@+id/flightToday"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="50dp"
                         android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
                         android:text="En Route Flight"
                         android:textColor="#fff"
                         android:textSize="20sp"
@@ -275,9 +274,9 @@
                         android:id="@+id/flightPast"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginLeft="50dp"
                         android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
                         android:text="Past Flights"
                         android:textColor="#fff"
                         android:textSize="20sp"
